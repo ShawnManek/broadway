@@ -28,12 +28,6 @@ a {
   color: white;
 }
 
-.copyright,
-.footer a {
-  font-size: 11px;
-  color: white;
-}
-
 .design {
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
@@ -41,7 +35,11 @@ a {
   background-size: cover;
 }
 
-#footer {
+.footer,
+.copyright,
+.footer a {
+  font-size: 11px;
+  color: white;
   text-align-last: left;
   background-color: dimgray;
 }
